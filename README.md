@@ -13,9 +13,16 @@ python manage.py runserver
 npm start
 ```
 
-#### Navigate into the innermost coinalertsapp folder and start the redis server and celery worker
+#### Navigate into the innermost coinalertsapp folder and start the redis server and celery worker ####
 ```
 redis-server
 celery -A coinalertsapp worker -l info
 celery -A coinalertsapp beat -l info
 ```
+
+##### TO-DO ####
+* add functionality to track BTC in currencies other than USD
+* add functionality to track BTC for a specified time period
+* add check so that user is notified only once
+* add ability to track other currencies?
+
