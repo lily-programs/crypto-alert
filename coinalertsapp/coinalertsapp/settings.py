@@ -133,8 +133,8 @@ CELERY_RESULT_BACKEND = 'redis://' + REDIS_HOST + ':' + REDIS_PORT + '/0'
 # EMAIL
 EMAIL_USE_TLS = True
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'mycoinapiapp@gmail.com'
-EMAIL_HOST_PASSWORD = 'nidzi2-tuztan-Benrez'
+EMAIL_HOST_USER = ''
+EMAIL_HOST_PASSWORD = ''
 EMAIL_PORT = 587
 # Internationalization
 # https://docs.djangoproject.com/en/2.1/topics/i18n/
